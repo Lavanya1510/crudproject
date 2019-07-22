@@ -3,21 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    
     <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/modules/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/modules/fontawesome/css/all.min.css">
+  
+    
+    
+    <!-- CSS Libraries -->
+    <!-- Register -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/modules/jquery-selectric/selectric.css">
+    <!-- package -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/modules/jqvmap/dist/jqvmap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/modules/summernote/summernote-bs4.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/iziToast.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/dashboard.css">
+
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/style.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/components.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/Category.css">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+      It will be replaced with the URL of the %PUBLIC_URL%` folder during the build.
+      Only files inside the %PUBLIC_URL%` folder can be referenced from the HTML.
 
       Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
+      work correctly both with client-side routing and a non-root%PUBLIC_URL% URL.
+      Learn how to configure a non-root%PUBLIC_URL% URL by running `npm run build`.
     -->
     <title>React App</title>
   </head>
@@ -34,5 +60,34 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+
+      <!-- General JS Scripts -->
+  <script src="%PUBLIC_URL%/dist/modules/jquery.min.js"></script>
+  <script src="%PUBLIC_URL%/dist/modules/popper.js"></script>
+  <script src="%PUBLIC_URL%/dist/modules/tooltip.js"></script>
+  <script src="%PUBLIC_URL%/dist/modules/bootstrap/js/bootstrap.min.js"></script>
+  <script src="%PUBLIC_URL%/dist/modules/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="%PUBLIC_URL%/dist/modules/moment.min.js"></script>
+  <script src="%PUBLIC_URL%/dist/js/stisla.js"></script>
+  
+  <!-- JS Libraies -->
+  <script src="%PUBLIC_URL%/dist/modules/jquery-pwstrength/jquery.pwstrength.min.js"></script>
+  <script src="%PUBLIC_URL%/dist/modules/jquery-selectric/jquery.selectric.min.js"></script>
+
+
+  <!-- Page Specific JS File -->
+  <!-- register page -->
+  <script src="%PUBLIC_URL%/dist/js/page/auth-register.js"></script>
+  <!-- Package Page -->
+  <script src="%PUBLIC_URL%/dist/js/page/dashboard-ecommerce.js"></script>
+  <!-- toasting -->
+  <!-- <script src="%PUBLIC_URL%/dist/js/iziToast.min.js" type="text/javascript"></script> -->
+
+  
+  <!-- Template JS File -->
+  <script src="%PUBLIC_URL%/dist/js/scripts.js"></script>
+  <script src="%PUBLIC_URL%/dist/js/custom.js"></script>
+
   </body>
 </html>
